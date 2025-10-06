@@ -60,14 +60,16 @@ export default function Page() {
         <div className="alife-header">
           <h2 id="alife-heading">Make ALife Live</h2>
         </div>
-        <p className="alife-description">
+        <div className="alife-description">
           <p>
             <strong>Cybroc</strong> is exhibited at{' '}
             <a href="https://2025.alife.org" target="_blank" rel="noreferrer">The 2025 Conference on Artificial Life, Kyoto, Japan</a>.
           </p>
-          We will live-stream the kinetic performance directly from the conference floor between <strong>October 7 and October 10</strong>,
-          streaming daily from <strong>12 PM – 6 PM (JST)</strong> as the broccoli ensemble executes the Blueprint protocol routines in real time.
-        </p>
+          <p>
+            We will live-stream the kinetic performance from the conference floor throughout <strong>October 7 – October 10</strong>,
+            broadcasting every day from <strong>12 PM to 6 PM (JST)</strong> as the broccoli ensemble executes Blueprint protocol routines in real time.
+          </p>
+        </div>
         <div className="live-buttons" aria-label="Live broadcast platforms">
           {livePlatforms.map((platform) => (
             <a
