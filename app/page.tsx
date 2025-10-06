@@ -41,7 +41,7 @@ export default function Page() {
       <header>
         <h1 className="title">Cybroc 🥦</h1>
         <p className="lede">
-          Ke Huang and Botao Amber Hu
+          Would you choose 80 years of natural life or maybe 100+ years of an artificialized life mechanized by protocols?
         </p>
       </header>
 
@@ -51,11 +51,7 @@ export default function Page() {
             Your browser does not support the embedded video. Download the performance footage to watch.
           </video>
         </div>
-        <p className="video-caption">
-          Would you choose 80 years of natural life or maybe 100+ years of an artificialized life mechanized by protocols?
-        </p>
       </section>
-
       <section className="alife" aria-labelledby="alife-heading">
         <div className="alife-header">
           <h2 id="alife-heading">Make ALife Live</h2>
@@ -63,7 +59,7 @@ export default function Page() {
         <div className="alife-description">
           <p>
             <strong>Cybroc</strong> is exhibited at{' '}
-            <a href="https://2025.alife.org" target="_blank" rel="noreferrer">The 2025 Conference on Artificial Life, Kyoto, Japan</a>.
+            <a href="https://2025.alife.org" target="_blank" rel="noreferrer">the 2025 Conference on Artificial Life (ALIFE 2025), Kyoto, Japan</a>.
           </p>
           <p>
             We will live-stream the kinetic performance from the conference floor throughout <strong>October 7 – October 10</strong>,
@@ -93,6 +89,13 @@ export default function Page() {
         </p>
 
         <div className="article-section">
+          <h3>/ Catalogue /</h3>
+          <p>
+            Life resists death. Silicon Valley has transformed longevity activism into a movement. Their "Don't die" slogan becomes protocols: broccoli, pills, and routines promise immortality by spreadsheet. Cybroc answers with a row of broccoli "cyborgs" that train harder than any billionaire body—running tiny treadmills, plunging in ice baths, brachiating on servo arms, sled-pushing on timing belts. They perform the rituals of longevity with machine devotion. And then, over days of exhibition, of course, they rot, inevitably. The green floret becomes brown, while the motors keep counting reps. Cybroc is an embodied argument: when we arrogantly attempt to engineer vitality, are we truly extending natural life—or merely mechanizing its inevitable decay?
+          </p>
+        </div>
+        
+        <div className="article-section">
           <h3>/ Concept /</h3>
           <p>
             Cybroc is a series of kinetic art installations exploring the recent proliferating populist longevity activism through the satirical cyborgization of broccoli. The artwork augments the symbol of health food—broccoli—with prosthetic limbs to perform so-called longevity-enhancing exercises such as cold plunges, treadmill running, brachiation (arm-swinging), sled pushing, simulations of primal human survival tasks reframed as modern fitness routines.
@@ -112,32 +115,10 @@ export default function Page() {
           </p>
         </div>
 
-        <div className="article-section">
-          <h3>/ Artwork /</h3>
-          <p>
-            It is in the context of the above topic that our Cybroc project uses broccoli as its central metaphor to critique contemporary longevity movements and transhumanist ideals. By augmenting and cyborgizing broccoli to perform exaggerated fitness routines, the installation satirizes humanity&apos;s obsession with technological enhancement.
-          </p>
-          <p>
-            Each broccoli is fitted with prosthetic limbs and mechanical attachments that enable it to perform longevity-enhancing exercises based on “Blueprint” protocols promoted by longevity activists. A key element of Cybroc is the temporal nature of the artwork. As the broccoli inevitably decays despite its “enhanced” form, the project invites reflection on the futility of technological attempts to transcend the natural lifecycle. This decay serves as both a visual and symbolic critique, challenging the audience to consider the ethical boundaries of human enhancement.
-          </p>
-        </div>
-
-        <div className="article-section">
-          <h3>/ Propagation /</h3>
-          <p>
-            The Cybroc installation is designed to engage audiences in a dynamic and reflective experience, blending humor, critique, and interaction. The exhibition strategy emphasizes accessibility, multisensory engagement, and meaningful dialogue between the artwork and its viewers.
-          </p>
-          <p>
-            To deepen its connection with audiences, Cybroc introduced a line of physical memorabilia, including wearable broccoli and temporary Cybroc tattoos featuring stylized broccoli cyborgs. These tattoos became an instant hit at the exhibition, with visitors wearing them to showcase their engagement with the artwork.
-          </p>
-          <p>
-            This playful approach extends the project’s reach beyond the exhibition space as attenders share images of their tattoos on social media, inadvertently becoming ambassadors for the artwork. Cybroc also provides digital streaming platforms to extend its reach and foster engagement. Livestreams allow remote audiences to experience the dynamic motion of the broccoli cyborgs in real time, while short videos highlight the humor embedded in the installation.
-          </p>
-        </div>
-
         <footer>
-          © 2025 CYBROC — References: <a href="https://reality.design/project/cybroc">reality.design</a> ·{' '}
-          <a href="http://kehuang.org/cybroc">kehuang.org</a>
+          See more on the project:<br/>
+          <a href="https://reality.design/project/cybroc">https://reality.design/project/cybroc</a><br/>
+          <a href="http://kehuang.org/cybroc">http://kehuang.org/cybroc</a>
         </footer>
       </section>
     </div>
