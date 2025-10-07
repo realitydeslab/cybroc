@@ -42,9 +42,9 @@ export default function Page() {
       <section className="hero" aria-labelledby="cybroc-video">
         <div className="video-frame" id="cybroc-video">
           <iframe
-            src="https://player.vimeo.com/video/1099882736?h=3478b6f0f7&badge=0&autopause=0&autoplay=1&loop=1&muted=1&player_id=0&app_id=58479"
+            src="https://player.vimeo.com/video/1099882736?h=3478b6f0f7&autopause=0&controls=1"
             title="CYBROC performance video"
-            allow="autoplay; fullscreen; picture-in-picture"
+            allow="fullscreen; picture-in-picture"
             allowFullScreen
           />
         </div>
