@@ -2,8 +2,8 @@ import Storyboard, { StoryFrame } from './components/storyboard';
 
 const livePlatforms = [
   { label: 'Live on X', href: 'https://x.com/cybroc_life' },
-  { label: 'Live on Pump.Fun', href: 'https://pump.fun/' },
-  { label: 'Live on Instagram', href: 'https://www.instagram.com/cybroc_life' },
+  { label: 'Live on Pump.Fun', href: 'https://pump.fun/coin/7cVK2ZVCfPb7NNzH5VMKs4DCcsDpW55JhUtnRR8ipump' },
+  { label: 'Live on Instagram', href: 'https://www.instagram.com/cybroc.life' },
 ];
 
 const storyFrames: StoryFrame[] = [
