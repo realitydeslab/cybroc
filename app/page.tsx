@@ -1,37 +1,31 @@
 import Storyboard, { StoryFrame } from './components/storyboard';
 
 const livePlatforms = [
-  { label: 'Live on X', href: 'https://x.com/' },
-  { label: 'Live on YouTube', href: 'https://www.youtube.com/' },
+  { label: 'Live on X', href: 'https://x.com/cybroc_life' },
   { label: 'Live on Pump.Fun', href: 'https://pump.fun/' },
-  { label: 'Live on TikTok', href: 'https://www.tiktok.com/' },
+  { label: 'Live on Instagram', href: 'https://www.instagram.com/cybroc_life' },
 ];
 
 const storyFrames: StoryFrame[] = [
   {
-    src: '/storyboard/frame-01.svg',
-    alt: 'Initial sketches of cyborg broccoli prosthetics',
-    caption: 'Sketching the prosthetic rig and motion studies.',
+    src: '/storyboard/cybroc-calibration.png',
+    alt: 'Broccoli cyborg suspended in the servo frame during calibration.',
+    caption: 'Calibration still inside the ALIFE 2025 installation lab.',
   },
   {
-    src: '/storyboard/frame-02.svg',
-    alt: '3D printed components and mechanical joints on workbench',
-    caption: 'Fabrication of mechanical joints and grips.',
+    src: '/storyboard/cybroc-audience.png',
+    alt: 'Audience gathered around the Cybroc kinetic setup in Kyoto.',
+    caption: 'Visitors witnessing the live training routine on site.',
   },
   {
-    src: '/storyboard/frame-03.svg',
-    alt: 'Broccoli specimen outfitted with prosthetic limbs',
-    caption: 'First broccoli fitted for blueprint routine testing.',
+    src: '/storyboard/cybroc-prosthetic.webp',
+    alt: 'Close-up of mechanical prosthetics wrapped around broccoli stalks.',
+    caption: 'Detail of the prosthetic grip executing Blueprint motions.',
   },
   {
-    src: '/storyboard/frame-04.svg',
-    alt: 'Performance stage lighting test with broccoli cyborg',
-    caption: 'Lighting rehearsal before the kinetic run.',
-  },
-  {
-    src: '/storyboard/frame-05.svg',
-    alt: 'Audience interaction and live stream monitors',
-    caption: 'Live audience feeds syncing with the broadcast.',
+    src: '/storyboard/cybroc-telemetry.webp',
+    alt: 'Projection and monitors relaying the live Cybroc telemetry.',
+    caption: 'Broadcast control wall synchronising the multiplatform stream.',
   },
 ];
 
@@ -47,14 +41,23 @@ export default function Page() {
 
       <section className="hero" aria-labelledby="cybroc-video">
         <div className="video-frame" id="cybroc-video">
-          <video src="/Cybroc.mp4" autoPlay muted loop playsInline controls preload="auto" poster="/storyboard/frame-03.svg">
+          <video
+            src="/Cybroc.mp4"
+            autoPlay
+            muted
+            loop
+            playsInline
+            controls
+            preload="auto"
+            poster="/storyboard/cybroc-audience.png"
+          >
             Your browser does not support the embedded video. Download the performance footage to watch.
           </video>
         </div>
       </section>
       <section className="alife" aria-labelledby="alife-heading">
         <div className="alife-header">
-          <h2 id="alife-heading">Make ALife Live</h2>
+          <h2 id="alife-heading">Make Artificial Life Live</h2>
         </div>
         <div className="alife-description">
           <p>
@@ -62,8 +65,11 @@ export default function Page() {
             <a href="https://2025.alife.org" target="_blank" rel="noreferrer">the 2025 Conference on Artificial Life (ALIFE 2025), Kyoto, Japan</a>.
           </p>
           <p>
-            We will live-stream the kinetic performance from the conference floor throughout <strong>October 7 – October 10</strong>,
-            broadcasting every day from <strong>12 PM to 6 PM (JST)</strong> as the broccoli ensemble executes Blueprint protocol routines in real time.
+            We will live-stream these kinetic performances from the conference expo floor throughout <strong>October 7 – October 10</strong>,
+            broadcasting every day from <strong>12 PM to 6 PM (JST)</strong> as the broccoli ensemble executes the Blueprint protocol routines in real time.
+          </p>
+          <p>
+              Please help us to share the live broadcast links below to help us reach @bryan_johnson and let him retweet about Cybrog, who is executing his Blueprint protocol. 
           </p>
         </div>
         <div className="live-buttons" aria-label="Live broadcast platforms">
@@ -94,7 +100,8 @@ export default function Page() {
             Life resists death. Silicon Valley has transformed longevity activism into a movement. Their "Don't die" slogan becomes protocols: broccoli, pills, and routines promise immortality by spreadsheet. Cybroc answers with a row of broccoli "cyborgs" that train harder than any billionaire body—running tiny treadmills, plunging in ice baths, brachiating on servo arms, sled-pushing on timing belts. They perform the rituals of longevity with machine devotion. And then, over days of exhibition, of course, they rot, inevitably. The green floret becomes brown, while the motors keep counting reps. Cybroc is an embodied argument: when we arrogantly attempt to engineer vitality, are we truly extending natural life—or merely mechanizing its inevitable decay?
           </p>
         </div>
-        
+
+
         <div className="article-section">
           <h3>/ Concept /</h3>
           <p>
@@ -115,6 +122,13 @@ export default function Page() {
           </p>
         </div>
 
+        <div className="article-gallery">
+          <img src="/storyboard/cybroc-prosthetic.webp" alt="Close-up of mechanical prosthetics wrapped around broccoli stalks." />
+          <img src="/storyboard/cybroc-telemetry.webp" alt="Projection and monitors relaying the live Cybroc telemetry." />
+          <img src="/storyboard/cybroc-audience.png" alt="Audience gathered around the Cybroc kinetic setup in Kyoto." />
+          <img src="/storyboard/cybroc-calibration.png" alt="Broccoli cyborg suspended in the servo frame during calibration." />
+        </div>
+        
         <footer>
           See more on the project:<br/>
           <a href="https://reality.design/project/cybroc">https://reality.design/project/cybroc</a><br/>

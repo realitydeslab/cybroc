@@ -267,6 +267,20 @@ header .subtitle {
   margin: 0 0 20px;
 }
 
+.article-gallery {
+  margin: 48px 0 56px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.article-gallery img {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+  aspect-ratio: 4 / 3;
+}
+
 .storyboard-block {
   border-top: 1px solid var(--hairline);
   padding: 48px 0 72px;
@@ -396,6 +410,10 @@ footer a {
   .alife {
     padding: 40px 0 60px;
     margin-bottom: 56px;
+  }
+
+  .article-gallery {
+    margin: 36px 0 48px;
   }
 
   .storyboard figcaption {
