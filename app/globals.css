@@ -99,7 +99,6 @@ header .subtitle {
   border-radius: 0;
   overflow: hidden;
   background: #000;
-  border: 1px solid var(--hairline);
 }
 
 .video-frame video,
@@ -116,6 +115,7 @@ header .subtitle {
   color: var(--muted);
   font-size: 16px;
 }
+
 
 .alife {
   border-top: 1px solid var(--hairline);
@@ -149,9 +149,9 @@ header .subtitle {
   text-decoration: underline;
 }
 
+
 .alife-description {
   margin: 0;
-  max-width: 60ch;
   color: var(--muted);
   display: flex;
   flex-direction: column;

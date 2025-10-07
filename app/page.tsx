@@ -41,18 +41,12 @@ export default function Page() {
 
       <section className="hero" aria-labelledby="cybroc-video">
         <div className="video-frame" id="cybroc-video">
-          <video
-            src="/Cybroc.mp4"
-            autoPlay
-            muted
-            loop
-            playsInline
-            controls
-            preload="auto"
-            poster="/storyboard/cybroc-audience.png"
-          >
-            Your browser does not support the embedded video. Download the performance footage to watch.
-          </video>
+          <iframe
+            src="https://player.vimeo.com/video/1099882736?h=3478b6f0f7&badge=0&autopause=0&autoplay=1&loop=1&muted=1&player_id=0&app_id=58479"
+            title="CYBROC performance video"
+            allow="autoplay; fullscreen; picture-in-picture"
+            allowFullScreen
+          />
         </div>
       </section>
       <section className="alife" aria-labelledby="alife-heading">
